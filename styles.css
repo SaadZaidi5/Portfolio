@@ -13,7 +13,7 @@ body {
   padding: 10px 12px;
 }
 
-.container {
+.container1 {
   position: relative;
   width: 375px;
   height: 48px;
@@ -236,11 +236,6 @@ body {
   flex-shrink: 0;
 }
 
-.hover:hover {
-  color: #7308ff;
-  zoom: 1.09;
-}
-
 .language-name-box {
   position: relative;
   margin-top: 12px;
@@ -282,4 +277,84 @@ body {
   flex-direction: row;
   padding: 6px;
   align-items: center;
+}
+
+.contact-body {
+  background-color: #6070ff;
+  border-radius: 80px 8px 8px 8px;
+  width: 375px;
+  height: 925px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  align-items: center;
+  color: #ebebff;
+}
+
+.contact-me {
+  margin-top: 130px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  height: 50px;
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 52px;
+}
+
+.form-text {
+  width: 327px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #ebebff;
+  font-size: 19px;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.container2 {
+  width: 375px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
 }
