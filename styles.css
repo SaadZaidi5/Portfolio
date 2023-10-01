@@ -13,7 +13,7 @@ body {
   padding: 10px 12px;
 }
 
-.container {
+.container1 {
   position: relative;
   width: 375px;
   height: 48px;
@@ -313,7 +313,7 @@ body {
   padding-bottom: 12px;
 }
 
-.container {
+.container2 {
   width: 375px;
   margin: 0 auto;
   padding: 20px;
@@ -343,7 +343,7 @@ textarea {
 }
 
 textarea {
-  resize: vertical; 
+  resize: vertical;
 }
 
 button[type="submit"] {
