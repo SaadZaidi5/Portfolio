@@ -33,7 +33,7 @@ body {
 .headline {
   width: 100%;
   height: auto;
-  background-image: url(./images/header.png);
+  background-image: url(./icons/header.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 50px;
@@ -319,7 +319,7 @@ body {
 }
 
 .form-background {
-  background-image: url(./images/formbackground.png);
+  background-image: url(./icons/formbackground.png);
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: right;
@@ -491,7 +491,7 @@ body {
   }
 
   .headline {
-    background-image: url(./images/desktop/headerbackground.png);
+    background-image: url(./icons/desktop/headerbackground.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 90vh;
@@ -603,7 +603,7 @@ body {
   }
 
   .form-background {
-    background-image: url(./images/desktop/contactdesktop.png);
+    background-image: url(./icons/desktop/contactdesktop.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
